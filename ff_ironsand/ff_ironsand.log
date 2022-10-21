@@ -12444,3 +12444,3140 @@ physics               [variable]       96628/4194304  ( 2.3%)
 Total triangle count: 2950
 Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
 56 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 142 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (105783 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 847 texinfos to 531
+Reduced 78 texdatas to 63 (2859 bytes to 2382)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  60 portalclusters
+ 119 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.00%)
+Total clusters visible: 2428
+Average clusters visible: 40
+Building PAS...
+Average clusters audible: 57
+visdatasize:1442  compressed from 960
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1143 faces
+407297 square feet [58650860.00 square inches]
+73 displacements
+185358 square feet [26691594.00 square inches]
+1143 patches before subdivision
+21722 patches after subdivision
+30 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1759323, max 393
+transfer lists:  13.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(54308, 16010, 15153)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8993, 2730, 2925)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1599, 535, 583)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(299, 115, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(59, 25, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 6, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0217 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                302/8192         3624/98304    ( 3.7%) 
+brushsides            2300/65536       18400/524288   ( 3.5%) 
+planes                1696/65536       33920/1310720  ( 2.6%) 
+vertexes              2119/65536       25428/786432   ( 3.2%) 
+nodes                  310/65536        9920/2097152  ( 0.5%) 
+texinfos               531/12288       38232/884736   ( 4.3%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184640/0          184640/0        ( 0.0%) 
+faces                 1143/65536       64008/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              785/65536       43960/3670016  ( 1.2%) 
+leaves                 327/65536       10464/2097152  ( 0.5%) 
+leaffaces             1332/65536        2664/131072   ( 2.0%) 
+leafbrushes            534/65536        1068/131072   ( 0.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             8695/512000      34780/2048000  ( 1.7%) 
+edges                 5595/256000      22380/1024000  ( 2.2%) 
+LDR worldlights         30/8192         2640/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2571/65536        5142/131072   ( 3.9%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1148776/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1442/16777216 ( 0.0%) 
+entdata               [variable]       14727/393216   ( 3.7%) 
+LDR leaf ambient       327/65536        7848/1572864  ( 0.5%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3092     ( 0.0%) 
+pakfile               [variable]       90722/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      105783/4194304  ( 2.5%) 
+==== Total Win32 BSP file data space used: 1980420 bytes ====
+
+Total triangle count: 3297
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 11 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1143 faces
+407297 square feet [58650860.00 square inches]
+73 displacements
+185358 square feet [26691594.00 square inches]
+1143 patches before subdivision
+21722 patches after subdivision
+30 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1759323, max 393
+transfer lists:  13.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(54308, 16010, 15153)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8993, 2730, 2925)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1599, 535, 583)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(299, 115, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(59, 25, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 6, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0253 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                302/8192         3624/98304    ( 3.7%) 
+brushsides            2300/65536       18400/524288   ( 3.5%) 
+planes                1696/65536       33920/1310720  ( 2.6%) 
+vertexes              2119/65536       25428/786432   ( 3.2%) 
+nodes                  310/65536        9920/2097152  ( 0.5%) 
+texinfos               531/12288       38232/884736   ( 4.3%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184640/0          184640/0        ( 0.0%) 
+faces                 1143/65536       64008/3670016  ( 1.7%) 
+hdr faces             1143/65536       64008/3670016  ( 1.7%) 
+origfaces              785/65536       43960/3670016  ( 1.2%) 
+leaves                 327/65536       10464/2097152  ( 0.5%) 
+leaffaces             1332/65536        2664/131072   ( 2.0%) 
+leafbrushes            534/65536        1068/131072   ( 0.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             8695/512000      34780/2048000  ( 1.7%) 
+edges                 5595/256000      22380/1024000  ( 2.2%) 
+LDR worldlights         30/8192         2640/720896   ( 0.4%) 
+HDR worldlights         30/8192         2640/720896   ( 0.4%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2571/65536        5142/131072   ( 3.9%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1148776/0        ( 0.0%) 
+HDR lightdata         [variable]     1148776/0        ( 0.0%) 
+visdata               [variable]        1442/16777216 ( 0.0%) 
+entdata               [variable]       14727/393216   ( 3.7%) 
+LDR leaf ambient       327/65536        7848/1572864  ( 0.5%) 
+HDR leaf ambient       327/65536        7848/1572864  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3092     ( 0.0%) 
+pakfile               [variable]       90722/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      105783/4194304  ( 2.5%) 
+==== Total Win32 BSP file data space used: 3203692 bytes ====
+
+Total triangle count: 3297
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 142 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (105784 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 848 texinfos to 527
+Reduced 74 texdatas to 60 (2552 bytes to 2114)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+8 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  60 portalclusters
+ 119 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.00%)
+Total clusters visible: 2428
+Average clusters visible: 40
+Building PAS...
+Average clusters audible: 57
+visdatasize:1442  compressed from 960
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1143 faces
+407297 square feet [58650860.00 square inches]
+73 displacements
+185026 square feet [26643814.00 square inches]
+1143 patches before subdivision
+21599 patches after subdivision
+31 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1765322, max 400
+transfer lists:  13.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(71772, 17387, 15419)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11661, 2795, 2935)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2019, 538, 584)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(366, 115, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(70, 25, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(14, 6, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0159 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                305/8192         3660/98304    ( 3.7%) 
+brushsides            2322/65536       18576/524288   ( 3.5%) 
+planes                1708/65536       34160/1310720  ( 2.6%) 
+vertexes              2119/65536       25428/786432   ( 3.2%) 
+nodes                  310/65536        9920/2097152  ( 0.5%) 
+texinfos               527/12288       37944/884736   ( 4.3%) 
+texdata                 60/2048         1920/65536    ( 2.9%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184640/0          184640/0        ( 0.0%) 
+faces                 1143/65536       64008/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              785/65536       43960/3670016  ( 1.2%) 
+leaves                 327/65536       10464/2097152  ( 0.5%) 
+leaffaces             1332/65536        2664/131072   ( 2.0%) 
+leafbrushes            537/65536        1074/131072   ( 0.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             8695/512000      34780/2048000  ( 1.7%) 
+edges                 5595/256000      22380/1024000  ( 2.2%) 
+LDR worldlights         31/8192         2728/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2571/65536        5142/131072   ( 3.9%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1156120/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1442/16777216 ( 0.0%) 
+entdata               [variable]       14976/393216   ( 3.8%) 
+LDR leaf ambient       327/65536        7848/1572864  ( 0.5%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3092     ( 0.0%) 
+pakfile               [variable]       89024/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      105784/4194304  ( 2.5%) 
+==== Total Win32 BSP file data space used: 1986478 bytes ====
+
+Total triangle count: 3297
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 13 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1143 faces
+407297 square feet [58650860.00 square inches]
+73 displacements
+185026 square feet [26643814.00 square inches]
+1143 patches before subdivision
+21599 patches after subdivision
+31 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1765322, max 400
+transfer lists:  13.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(71772, 17387, 15419)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11661, 2795, 2935)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2019, 538, 584)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(366, 115, 124)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(70, 25, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(14, 6, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0230 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                305/8192         3660/98304    ( 3.7%) 
+brushsides            2322/65536       18576/524288   ( 3.5%) 
+planes                1708/65536       34160/1310720  ( 2.6%) 
+vertexes              2119/65536       25428/786432   ( 3.2%) 
+nodes                  310/65536        9920/2097152  ( 0.5%) 
+texinfos               527/12288       37944/884736   ( 4.3%) 
+texdata                 60/2048         1920/65536    ( 2.9%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184640/0          184640/0        ( 0.0%) 
+faces                 1143/65536       64008/3670016  ( 1.7%) 
+hdr faces             1143/65536       64008/3670016  ( 1.7%) 
+origfaces              785/65536       43960/3670016  ( 1.2%) 
+leaves                 327/65536       10464/2097152  ( 0.5%) 
+leaffaces             1332/65536        2664/131072   ( 2.0%) 
+leafbrushes            537/65536        1074/131072   ( 0.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             8695/512000      34780/2048000  ( 1.7%) 
+edges                 5595/256000      22380/1024000  ( 2.2%) 
+LDR worldlights         31/8192         2728/720896   ( 0.4%) 
+HDR worldlights         31/8192         2728/720896   ( 0.4%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2571/65536        5142/131072   ( 3.9%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1156120/0        ( 0.0%) 
+HDR lightdata         [variable]     1156120/0        ( 0.0%) 
+visdata               [variable]        1442/16777216 ( 0.0%) 
+entdata               [variable]       14976/393216   ( 3.8%) 
+LDR leaf ambient       327/65536        7848/1572864  ( 0.5%) 
+HDR leaf ambient       327/65536        7848/1572864  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3092     ( 0.0%) 
+pakfile               [variable]       89024/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      105784/4194304  ( 2.5%) 
+==== Total Win32 BSP file data space used: 3217182 bytes ====
+
+Total triangle count: 3297
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 142 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (117437 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 817 texinfos to 512
+Reduced 73 texdatas to 59 (2506 bytes to 2068)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+7 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  64 portalclusters
+ 125 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.00%)
+Total clusters visible: 2880
+Average clusters visible: 45
+Building PAS...
+Average clusters audible: 61
+visdatasize:1525  compressed from 1024
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1279 faces
+444665 square feet [64031772.00 square inches]
+73 displacements
+185043 square feet [26646192.00 square inches]
+1279 patches before subdivision
+25289 patches after subdivision
+31 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2194264, max 432
+transfer lists:  16.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(112854, 27986, 16493)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20043, 4063, 2947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3781, 734, 575)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(712, 138, 118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(138, 29, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(27, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0228 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                334/8192         4008/98304    ( 4.1%) 
+brushsides            2521/65536       20168/524288   ( 3.8%) 
+planes                1810/65536       36200/1310720  ( 2.8%) 
+vertexes              2376/65536       28512/786432   ( 3.6%) 
+nodes                  324/65536       10368/2097152  ( 0.5%) 
+texinfos               512/12288       36864/884736   ( 4.2%) 
+texdata                 59/2048         1888/65536    ( 2.9%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184640/0          184640/0        ( 0.0%) 
+faces                 1279/65536       71624/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              862/65536       48272/3670016  ( 1.3%) 
+leaves                 341/65536       10912/2097152  ( 0.5%) 
+leaffaces             1504/65536        3008/131072   ( 2.3%) 
+leafbrushes            593/65536        1186/131072   ( 0.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             9721/512000      38884/2048000  ( 1.9%) 
+edges                 6243/256000      24972/1024000  ( 2.4%) 
+LDR worldlights         31/8192         2728/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            166/32768        1660/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3021/65536        6042/131072   ( 4.6%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1256196/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1525/16777216 ( 0.0%) 
+entdata               [variable]       14992/393216   ( 3.8%) 
+LDR leaf ambient       341/65536        8184/1572864  ( 0.5%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3092     ( 0.0%) 
+pakfile               [variable]       88670/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      117437/4194304  ( 2.8%) 
+==== Total Win32 BSP file data space used: 2125386 bytes ====
+
+Total triangle count: 3735
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 17 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1279 faces
+444665 square feet [64031772.00 square inches]
+73 displacements
+185043 square feet [26646192.00 square inches]
+1279 patches before subdivision
+25289 patches after subdivision
+31 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2194264, max 432
+transfer lists:  16.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(112854, 27986, 16493)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20043, 4063, 2947)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3781, 734, 575)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(712, 138, 118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(138, 29, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(27, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0338 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                334/8192         4008/98304    ( 4.1%) 
+brushsides            2521/65536       20168/524288   ( 3.8%) 
+planes                1810/65536       36200/1310720  ( 2.8%) 
+vertexes              2376/65536       28512/786432   ( 3.6%) 
+nodes                  324/65536       10368/2097152  ( 0.5%) 
+texinfos               512/12288       36864/884736   ( 4.2%) 
+texdata                 59/2048         1888/65536    ( 2.9%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184640/0          184640/0        ( 0.0%) 
+faces                 1279/65536       71624/3670016  ( 2.0%) 
+hdr faces             1279/65536       71624/3670016  ( 2.0%) 
+origfaces              862/65536       48272/3670016  ( 1.3%) 
+leaves                 341/65536       10912/2097152  ( 0.5%) 
+leaffaces             1504/65536        3008/131072   ( 2.3%) 
+leafbrushes            593/65536        1186/131072   ( 0.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             9721/512000      38884/2048000  ( 1.9%) 
+edges                 6243/256000      24972/1024000  ( 2.4%) 
+LDR worldlights         31/8192         2728/720896   ( 0.4%) 
+HDR worldlights         31/8192         2728/720896   ( 0.4%) 
+waterstrips            166/32768        1660/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3021/65536        6042/131072   ( 4.6%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1256196/0        ( 0.0%) 
+HDR lightdata         [variable]     1256196/0        ( 0.0%) 
+visdata               [variable]        1525/16777216 ( 0.0%) 
+entdata               [variable]       14992/393216   ( 3.8%) 
+LDR leaf ambient       341/65536        8184/1572864  ( 0.5%) 
+HDR leaf ambient       341/65536        8184/1572864  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3092     ( 0.0%) 
+pakfile               [variable]       88670/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      117437/4194304  ( 2.8%) 
+==== Total Win32 BSP file data space used: 3464118 bytes ====
+
+Total triangle count: 3735
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 168 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (134885 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1244 texinfos to 680
+Reduced 80 texdatas to 65 (2827 bytes to 2362)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  56 portalclusters
+ 102 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2232
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 53
+visdatasize:1228  compressed from 896
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1438 faces
+444939 square feet [64071320.00 square inches]
+73 displacements
+184163 square feet [26519532.00 square inches]
+1438 patches before subdivision
+22038 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1841355, max 425
+transfer lists:  14.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67976, 22654, 16967)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10367, 3111, 2932)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1872, 584, 572)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(350, 120, 119)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(72, 27, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0169 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                378/8192         4536/98304    ( 4.6%) 
+brushsides            2940/65536       23520/524288   ( 4.5%) 
+planes                2366/65536       47320/1310720  ( 3.6%) 
+vertexes              2548/65536       30576/786432   ( 3.9%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               680/12288       48960/884736   ( 5.5%) 
+texdata                 65/2048         2080/65536    ( 3.2%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184776/0          184776/0        ( 0.0%) 
+faces                 1438/65536       80528/3670016  ( 2.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1014/65536       56784/3670016  ( 1.5%) 
+leaves                 477/65536       15264/2097152  ( 0.7%) 
+leaffaces             1636/65536        3272/131072   ( 2.5%) 
+leafbrushes            642/65536        1284/131072   ( 1.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            10985/512000      43940/2048000  ( 2.1%) 
+edges                 6967/256000      27868/1024000  ( 2.7%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3150/65536        6300/131072   ( 4.8%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]      995168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1228/16777216 ( 0.0%) 
+entdata               [variable]       16138/393216   ( 4.1%) 
+LDR leaf ambient       477/65536       11448/1572864  ( 0.7%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      115802/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      134885/4194304  ( 3.2%) 
+==== Total Win32 BSP file data space used: 1977513 bytes ====
+
+Total triangle count: 4032
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1438 faces
+444939 square feet [64071320.00 square inches]
+73 displacements
+184163 square feet [26519532.00 square inches]
+1438 patches before subdivision
+22038 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1841355, max 425
+transfer lists:  14.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67976, 22654, 16967)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10367, 3111, 2932)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1872, 584, 572)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(350, 120, 119)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(72, 27, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0148 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                378/8192         4536/98304    ( 4.6%) 
+brushsides            2940/65536       23520/524288   ( 4.5%) 
+planes                2366/65536       47320/1310720  ( 3.6%) 
+vertexes              2548/65536       30576/786432   ( 3.9%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               680/12288       48960/884736   ( 5.5%) 
+texdata                 65/2048         2080/65536    ( 3.2%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184776/0          184776/0        ( 0.0%) 
+faces                 1438/65536       80528/3670016  ( 2.2%) 
+hdr faces             1438/65536       80528/3670016  ( 2.2%) 
+origfaces             1014/65536       56784/3670016  ( 1.5%) 
+leaves                 477/65536       15264/2097152  ( 0.7%) 
+leaffaces             1636/65536        3272/131072   ( 2.5%) 
+leafbrushes            642/65536        1284/131072   ( 1.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            10985/512000      43940/2048000  ( 2.1%) 
+edges                 6967/256000      27868/1024000  ( 2.7%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3150/65536        6300/131072   ( 4.8%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]      995168/0        ( 0.0%) 
+HDR lightdata         [variable]      995168/0        ( 0.0%) 
+visdata               [variable]        1228/16777216 ( 0.0%) 
+entdata               [variable]       16138/393216   ( 4.1%) 
+LDR leaf ambient       477/65536       11448/1572864  ( 0.7%) 
+HDR leaf ambient       477/65536       11448/1572864  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      115802/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      134885/4194304  ( 3.2%) 
+==== Total Win32 BSP file data space used: 3067561 bytes ====
+
+Total triangle count: 4032
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+58 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 168 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (134885 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1268 texinfos to 680
+Reduced 80 texdatas to 65 (2823 bytes to 2358)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  56 portalclusters
+ 102 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2232
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 53
+visdatasize:1228  compressed from 896
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1438 faces
+444939 square feet [64071320.00 square inches]
+73 displacements
+184039 square feet [26501648.00 square inches]
+1438 patches before subdivision
+22038 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1828871, max 425
+transfer lists:  14.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(66412, 21761, 16242)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10211, 3044, 2883)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1854, 576, 566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(347, 120, 118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(72, 27, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0149 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                386/8192         4632/98304    ( 4.7%) 
+brushsides            2992/65536       23936/524288   ( 4.6%) 
+planes                2384/65536       47680/1310720  ( 3.6%) 
+vertexes              2591/65536       31092/786432   ( 4.0%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               680/12288       48960/884736   ( 5.5%) 
+texdata                 65/2048         2080/65536    ( 3.2%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184776/0          184776/0        ( 0.0%) 
+faces                 1438/65536       80528/3670016  ( 2.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1014/65536       56784/3670016  ( 1.5%) 
+leaves                 477/65536       15264/2097152  ( 0.7%) 
+leaffaces             1636/65536        3272/131072   ( 2.5%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            11001/512000      44004/2048000  ( 2.1%) 
+edges                 6975/256000      27900/1024000  ( 2.7%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            174/32768        1740/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3291/65536        6582/131072   ( 5.0%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]      995168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1228/16777216 ( 0.0%) 
+entdata               [variable]       22382/393216   ( 5.7%) 
+LDR leaf ambient       477/65536       11448/1572864  ( 0.7%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      115802/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      134885/4194304  ( 3.2%) 
+==== Total Win32 BSP file data space used: 1985621 bytes ====
+
+Total triangle count: 4048
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 10 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1438 faces
+444939 square feet [64071320.00 square inches]
+73 displacements
+184039 square feet [26501648.00 square inches]
+1438 patches before subdivision
+22038 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1828871, max 425
+transfer lists:  14.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(66412, 21761, 16242)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10211, 3044, 2883)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1854, 576, 566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(347, 120, 118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(72, 27, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0153 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                386/8192         4632/98304    ( 4.7%) 
+brushsides            2992/65536       23936/524288   ( 4.6%) 
+planes                2384/65536       47680/1310720  ( 3.6%) 
+vertexes              2591/65536       31092/786432   ( 4.0%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               680/12288       48960/884736   ( 5.5%) 
+texdata                 65/2048         2080/65536    ( 3.2%) 
+dispinfos               73/0           12848/0        ( 0.0%) 
+disp_verts            3057/0           61140/0        ( 0.0%) 
+disp_tris             4448/0            8896/0        ( 0.0%) 
+disp_lmsamples      184776/0          184776/0        ( 0.0%) 
+faces                 1438/65536       80528/3670016  ( 2.2%) 
+hdr faces             1438/65536       80528/3670016  ( 2.2%) 
+origfaces             1014/65536       56784/3670016  ( 1.5%) 
+leaves                 477/65536       15264/2097152  ( 0.7%) 
+leaffaces             1636/65536        3272/131072   ( 2.5%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            11001/512000      44004/2048000  ( 2.1%) 
+edges                 6975/256000      27900/1024000  ( 2.7%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+waterstrips            174/32768        1740/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3291/65536        6582/131072   ( 5.0%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]      995168/0        ( 0.0%) 
+HDR lightdata         [variable]      995168/0        ( 0.0%) 
+visdata               [variable]        1228/16777216 ( 0.0%) 
+entdata               [variable]       22382/393216   ( 5.7%) 
+LDR leaf ambient       477/65536       11448/1572864  ( 0.7%) 
+HDR leaf ambient       477/65536       11448/1572864  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      115802/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      134885/4194304  ( 3.2%) 
+==== Total Win32 BSP file data space used: 3075669 bytes ====
+
+Total triangle count: 4048
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 168 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (136869 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1286 texinfos to 684
+Reduced 77 texdatas to 63 (2616 bytes to 2178)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  75 portalclusters
+ 136 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3537
+Average clusters visible: 47
+Building PAS...
+Average clusters audible: 71
+visdatasize:2062  compressed from 2400
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1580 faces
+535557 square feet [77120288.00 square inches]
+81 displacements
+200198 square feet [28828582.00 square inches]
+1580 patches before subdivision
+34430 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3587908, max 460
+transfer lists:  27.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61418, 20671, 16896)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11632, 3271, 3035)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2484, 669, 607)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(574, 158, 132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(150, 44, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(45, 14, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0251 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                392/8192         4704/98304    ( 4.8%) 
+brushsides            3042/65536       24336/524288   ( 4.6%) 
+planes                2426/65536       48520/1310720  ( 3.7%) 
+vertexes              2787/65536       33444/786432   ( 4.3%) 
+nodes                  517/65536       16544/2097152  ( 0.8%) 
+texinfos               684/12288       49248/884736   ( 5.6%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1580/65536       88480/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1042/65536       58352/3670016  ( 1.6%) 
+leaves                 535/65536       17120/2097152  ( 0.8%) 
+leaffaces             1807/65536        3614/131072   ( 2.8%) 
+leafbrushes            679/65536        1358/131072   ( 1.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            11742/512000      46968/2048000  ( 2.3%) 
+edges                 7382/256000      29528/1024000  ( 2.9%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            181/32768        1810/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3384/65536        6768/131072   ( 5.2%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1234864/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2062/16777216 ( 0.0%) 
+entdata               [variable]       22382/393216   ( 5.7%) 
+LDR leaf ambient       535/65536       12840/1572864  ( 0.8%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114551/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      136869/4194304  ( 3.3%) 
+==== Total Win32 BSP file data space used: 2274924 bytes ====
+
+Total triangle count: 4393
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 11 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1580 faces
+535557 square feet [77120288.00 square inches]
+81 displacements
+200198 square feet [28828582.00 square inches]
+1580 patches before subdivision
+34430 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3587908, max 460
+transfer lists:  27.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61418, 20671, 16896)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11632, 3271, 3035)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2484, 669, 607)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(574, 158, 132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(150, 44, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(45, 14, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0237 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                392/8192         4704/98304    ( 4.8%) 
+brushsides            3042/65536       24336/524288   ( 4.6%) 
+planes                2426/65536       48520/1310720  ( 3.7%) 
+vertexes              2787/65536       33444/786432   ( 4.3%) 
+nodes                  517/65536       16544/2097152  ( 0.8%) 
+texinfos               684/12288       49248/884736   ( 5.6%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1580/65536       88480/3670016  ( 2.4%) 
+hdr faces             1580/65536       88480/3670016  ( 2.4%) 
+origfaces             1042/65536       58352/3670016  ( 1.6%) 
+leaves                 535/65536       17120/2097152  ( 0.8%) 
+leaffaces             1807/65536        3614/131072   ( 2.8%) 
+leafbrushes            679/65536        1358/131072   ( 1.0%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            11742/512000      46968/2048000  ( 2.3%) 
+edges                 7382/256000      29528/1024000  ( 2.9%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+waterstrips            181/32768        1810/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3384/65536        6768/131072   ( 5.2%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1234864/0        ( 0.0%) 
+HDR lightdata         [variable]     1234864/0        ( 0.0%) 
+visdata               [variable]        2062/16777216 ( 0.0%) 
+entdata               [variable]       22382/393216   ( 5.7%) 
+LDR leaf ambient       535/65536       12840/1572864  ( 0.8%) 
+HDR leaf ambient       535/65536       12840/1572864  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114551/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      136869/4194304  ( 3.3%) 
+==== Total Win32 BSP file data space used: 3614012 bytes ====
+
+Total triangle count: 4393
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 168 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (138445 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1295 texinfos to 681
+Reduced 77 texdatas to 63 (2616 bytes to 2178)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  85 portalclusters
+ 153 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3693
+Average clusters visible: 43
+Building PAS...
+Average clusters audible: 69
+visdatasize:2504  compressed from 2720
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1604 faces
+551556 square feet [79424176.00 square inches]
+81 displacements
+200202 square feet [28829170.00 square inches]
+1604 patches before subdivision
+39172 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4095590, max 460
+transfer lists:  31.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61359, 20114, 16146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11772, 3239, 2952)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2571, 677, 594)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(617, 166, 130)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(169, 48, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(54, 16, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(20, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0246 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                397/8192         4764/98304    ( 4.8%) 
+brushsides            3080/65536       24640/524288   ( 4.7%) 
+planes                2438/65536       48760/1310720  ( 3.7%) 
+vertexes              2839/65536       34068/786432   ( 4.3%) 
+nodes                  538/65536       17216/2097152  ( 0.8%) 
+texinfos               681/12288       49032/884736   ( 5.5%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1604/65536       89824/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1045/65536       58520/3670016  ( 1.6%) 
+leaves                 556/65536       17792/2097152  ( 0.8%) 
+leaffaces             1834/65536        3668/131072   ( 2.8%) 
+leafbrushes            693/65536        1386/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            11872/512000      47488/2048000  ( 2.3%) 
+edges                 7461/256000      29844/1024000  ( 2.9%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3393/65536        6786/131072   ( 5.2%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1283656/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2504/16777216 ( 0.0%) 
+entdata               [variable]       22857/393216   ( 5.8%) 
+LDR leaf ambient       556/65536       13344/1572864  ( 0.8%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114551/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      138445/4194304  ( 3.3%) 
+==== Total Win32 BSP file data space used: 2331527 bytes ====
+
+Total triangle count: 4467
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 20 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1604 faces
+551556 square feet [79424176.00 square inches]
+81 displacements
+200202 square feet [28829170.00 square inches]
+1604 patches before subdivision
+39172 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4095590, max 460
+transfer lists:  31.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61359, 20114, 16146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11772, 3239, 2952)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2571, 677, 594)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(617, 166, 130)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(169, 48, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(54, 16, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(20, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0454 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                397/8192         4764/98304    ( 4.8%) 
+brushsides            3080/65536       24640/524288   ( 4.7%) 
+planes                2438/65536       48760/1310720  ( 3.7%) 
+vertexes              2839/65536       34068/786432   ( 4.3%) 
+nodes                  538/65536       17216/2097152  ( 0.8%) 
+texinfos               681/12288       49032/884736   ( 5.5%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1604/65536       89824/3670016  ( 2.4%) 
+hdr faces             1604/65536       89824/3670016  ( 2.4%) 
+origfaces             1045/65536       58520/3670016  ( 1.6%) 
+leaves                 556/65536       17792/2097152  ( 0.8%) 
+leaffaces             1834/65536        3668/131072   ( 2.8%) 
+leafbrushes            693/65536        1386/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            11872/512000      47488/2048000  ( 2.3%) 
+edges                 7461/256000      29844/1024000  ( 2.9%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3393/65536        6786/131072   ( 5.2%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1283656/0        ( 0.0%) 
+HDR lightdata         [variable]     1283656/0        ( 0.0%) 
+visdata               [variable]        2504/16777216 ( 0.0%) 
+entdata               [variable]       22857/393216   ( 5.8%) 
+LDR leaf ambient       556/65536       13344/1572864  ( 0.8%) 
+HDR leaf ambient       556/65536       13344/1572864  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114551/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      138445/4194304  ( 3.3%) 
+==== Total Win32 BSP file data space used: 3721255 bytes ====
+
+Total triangle count: 4467
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 168 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (139765 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1287 texinfos to 676
+Reduced 77 texdatas to 63 (2616 bytes to 2178)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+4 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  95 portalclusters
+ 180 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 5198
+Average clusters visible: 54
+Building PAS...
+Average clusters audible: 82
+visdatasize:2955  compressed from 3040
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1629 faces
+551674 square feet [79441056.00 square inches]
+81 displacements
+200202 square feet [28829170.00 square inches]
+1629 patches before subdivision
+39251 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4212823, max 473
+transfer lists:  32.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(63827, 20803, 16362)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(13329, 3658, 3073)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3149, 808, 628)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(810, 202, 138)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(230, 58, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(72, 19, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(25, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0340 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                398/8192         4776/98304    ( 4.9%) 
+brushsides            3088/65536       24704/524288   ( 4.7%) 
+planes                2446/65536       48920/1310720  ( 3.7%) 
+vertexes              2884/65536       34608/786432   ( 4.4%) 
+nodes                  547/65536       17504/2097152  ( 0.8%) 
+texinfos               676/12288       48672/884736   ( 5.5%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1629/65536       91224/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1059/65536       59304/3670016  ( 1.6%) 
+leaves                 565/65536       18080/2097152  ( 0.9%) 
+leaffaces             1859/65536        3718/131072   ( 2.8%) 
+leafbrushes            693/65536        1386/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12079/512000      48316/2048000  ( 2.4%) 
+edges                 7578/256000      30312/1024000  ( 3.0%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            192/32768        1920/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3588/65536        7176/131072   ( 5.5%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1279452/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2955/16777216 ( 0.0%) 
+entdata               [variable]       23301/393216   ( 5.9%) 
+LDR leaf ambient       565/65536       13560/1572864  ( 0.9%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114551/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      139765/4194304  ( 3.3%) 
+==== Total Win32 BSP file data space used: 2334766 bytes ====
+
+Total triangle count: 4564
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 22 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1629 faces
+551674 square feet [79441056.00 square inches]
+81 displacements
+200202 square feet [28829170.00 square inches]
+1629 patches before subdivision
+39251 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4212823, max 473
+transfer lists:  32.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(63827, 20803, 16362)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(13329, 3658, 3073)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3149, 808, 628)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(810, 202, 138)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(230, 58, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(72, 19, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(25, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0308 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                398/8192         4776/98304    ( 4.9%) 
+brushsides            3088/65536       24704/524288   ( 4.7%) 
+planes                2446/65536       48920/1310720  ( 3.7%) 
+vertexes              2884/65536       34608/786432   ( 4.4%) 
+nodes                  547/65536       17504/2097152  ( 0.8%) 
+texinfos               676/12288       48672/884736   ( 5.5%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1629/65536       91224/3670016  ( 2.5%) 
+hdr faces             1629/65536       91224/3670016  ( 2.5%) 
+origfaces             1059/65536       59304/3670016  ( 1.6%) 
+leaves                 565/65536       18080/2097152  ( 0.9%) 
+leaffaces             1859/65536        3718/131072   ( 2.8%) 
+leafbrushes            693/65536        1386/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12079/512000      48316/2048000  ( 2.4%) 
+edges                 7578/256000      30312/1024000  ( 3.0%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+waterstrips            192/32768        1920/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3588/65536        7176/131072   ( 5.5%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1279452/0        ( 0.0%) 
+HDR lightdata         [variable]     1279452/0        ( 0.0%) 
+visdata               [variable]        2955/16777216 ( 0.0%) 
+entdata               [variable]       23301/393216   ( 5.9%) 
+LDR leaf ambient       565/65536       13560/1572864  ( 0.9%) 
+HDR leaf ambient       565/65536       13560/1572864  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114551/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      139765/4194304  ( 3.3%) 
+==== Total Win32 BSP file data space used: 3721906 bytes ====
+
+Total triangle count: 4564
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 25 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 168 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (140765 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1289 texinfos to 678
+Reduced 77 texdatas to 63 (2616 bytes to 2178)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+4 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+ 102 portalclusters
+ 197 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 13 visible clusters (0.00%)
+Total clusters visible: 6489
+Average clusters visible: 63
+Building PAS...
+Average clusters audible: 98
+visdatasize:3415  compressed from 3264
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1643 faces
+551602 square feet [79430824.00 square inches]
+81 displacements
+200204 square feet [28829398.00 square inches]
+1643 patches before subdivision
+38967 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4207464, max 476
+transfer lists:  32.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64360, 21037, 16432)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(13563, 3771, 3104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3336, 875, 644)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(903, 233, 145)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(276, 73, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(94, 26, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(35, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(14, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0342 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                401/8192         4812/98304    ( 4.9%) 
+brushsides            3106/65536       24848/524288   ( 4.7%) 
+planes                2448/65536       48960/1310720  ( 3.7%) 
+vertexes              2910/65536       34920/786432   ( 4.4%) 
+nodes                  560/65536       17920/2097152  ( 0.9%) 
+texinfos               678/12288       48816/884736   ( 5.5%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1643/65536       92008/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1068/65536       59808/3670016  ( 1.6%) 
+leaves                 578/65536       18496/2097152  ( 0.9%) 
+leaffaces             1885/65536        3770/131072   ( 2.9%) 
+leafbrushes            698/65536        1396/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12192/512000      48768/2048000  ( 2.4%) 
+edges                 7646/256000      30584/1024000  ( 3.0%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            197/32768        1970/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1279924/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3415/16777216 ( 0.0%) 
+entdata               [variable]       23406/393216   ( 6.0%) 
+LDR leaf ambient       578/65536       13872/1572864  ( 0.9%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114551/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      140765/4194304  ( 3.4%) 
+==== Total Win32 BSP file data space used: 2340903 bytes ====
+
+Total triangle count: 4612
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 25 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1643 faces
+551602 square feet [79430824.00 square inches]
+81 displacements
+200204 square feet [28829398.00 square inches]
+1643 patches before subdivision
+38967 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4207464, max 476
+transfer lists:  32.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64360, 21037, 16432)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(13563, 3771, 3104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3336, 875, 644)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(903, 233, 145)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(276, 73, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(94, 26, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(35, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(14, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0235 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                401/8192         4812/98304    ( 4.9%) 
+brushsides            3106/65536       24848/524288   ( 4.7%) 
+planes                2448/65536       48960/1310720  ( 3.7%) 
+vertexes              2910/65536       34920/786432   ( 4.4%) 
+nodes                  560/65536       17920/2097152  ( 0.9%) 
+texinfos               678/12288       48816/884736   ( 5.5%) 
+texdata                 63/2048         2016/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1643/65536       92008/3670016  ( 2.5%) 
+hdr faces             1643/65536       92008/3670016  ( 2.5%) 
+origfaces             1068/65536       59808/3670016  ( 1.6%) 
+leaves                 578/65536       18496/2097152  ( 0.9%) 
+leaffaces             1885/65536        3770/131072   ( 2.9%) 
+leafbrushes            698/65536        1396/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12192/512000      48768/2048000  ( 2.4%) 
+edges                 7646/256000      30584/1024000  ( 3.0%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+waterstrips            197/32768        1970/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3666/65536        7332/131072   ( 5.6%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                64/512         22528/180224   (12.5%) 
+LDR lightdata         [variable]     1279924/0        ( 0.0%) 
+HDR lightdata         [variable]     1279924/0        ( 0.0%) 
+visdata               [variable]        3415/16777216 ( 0.0%) 
+entdata               [variable]       23406/393216   ( 6.0%) 
+LDR leaf ambient       578/65536       13872/1572864  ( 0.9%) 
+HDR leaf ambient       578/65536       13872/1572864  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114551/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      140765/4194304  ( 3.4%) 
+==== Total Win32 BSP file data space used: 3729611 bytes ====
+
+Total triangle count: 4612
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 180 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149313 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1356 texinfos to 709
+Reduced 81 texdatas to 64 (2693 bytes to 2160)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+9 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+ 103 portalclusters
+ 203 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.00%)
+Total clusters visible: 6857
+Average clusters visible: 66
+Building PAS...
+Average clusters audible: 100
+visdatasize:3444  compressed from 3296
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1721 faces
+556901 square feet [80193808.00 square inches]
+81 displacements
+200204 square feet [28829398.00 square inches]
+1721 patches before subdivision
+39891 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4487479, max 495
+transfer lists:  34.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67819, 21851, 16708)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14960, 4116, 3209)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3804, 994, 677)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1092, 283, 158)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(353, 94, 40)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(126, 35, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(49, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(20, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0240 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                421/8192         5052/98304    ( 5.1%) 
+brushsides            3244/65536       25952/524288   ( 4.9%) 
+planes                2530/65536       50600/1310720  ( 3.9%) 
+vertexes              3050/65536       36600/786432   ( 4.7%) 
+nodes                  588/65536       18816/2097152  ( 0.9%) 
+texinfos               709/12288       51048/884736   ( 5.8%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1721/65536       96376/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1131/65536       63336/3670016  ( 1.7%) 
+leaves                 609/65536       19488/2097152  ( 0.9%) 
+leaffaces             1964/65536        3928/131072   ( 3.0%) 
+leafbrushes            735/65536        1470/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12834/512000      51336/2048000  ( 2.5%) 
+edges                 8050/256000      32200/1024000  ( 3.1%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            203/32768        2030/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3807/65536        7614/131072   ( 5.8%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                66/512         23232/180224   (12.9%) 
+LDR lightdata         [variable]     1296996/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3444/16777216 ( 0.0%) 
+entdata               [variable]       24563/393216   ( 6.2%) 
+LDR leaf ambient       609/65536       14616/1572864  ( 0.9%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114721/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      149313/4194304  ( 3.6%) 
+==== Total Win32 BSP file data space used: 2390941 bytes ====
+
+Total triangle count: 4843
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 18 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1721 faces
+556901 square feet [80193808.00 square inches]
+81 displacements
+200204 square feet [28829398.00 square inches]
+1721 patches before subdivision
+39891 patches after subdivision
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4487479, max 495
+transfer lists:  34.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67819, 21851, 16708)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14960, 4116, 3209)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3804, 994, 677)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1092, 283, 158)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(353, 94, 40)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(126, 35, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(49, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(20, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(8, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0474 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                421/8192         5052/98304    ( 5.1%) 
+brushsides            3244/65536       25952/524288   ( 4.9%) 
+planes                2530/65536       50600/1310720  ( 3.9%) 
+vertexes              3050/65536       36600/786432   ( 4.7%) 
+nodes                  588/65536       18816/2097152  ( 0.9%) 
+texinfos               709/12288       51048/884736   ( 5.8%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1721/65536       96376/3670016  ( 2.6%) 
+hdr faces             1721/65536       96376/3670016  ( 2.6%) 
+origfaces             1131/65536       63336/3670016  ( 1.7%) 
+leaves                 609/65536       19488/2097152  ( 0.9%) 
+leaffaces             1964/65536        3928/131072   ( 3.0%) 
+leafbrushes            735/65536        1470/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12834/512000      51336/2048000  ( 2.5%) 
+edges                 8050/256000      32200/1024000  ( 3.1%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+waterstrips            203/32768        2030/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3807/65536        7614/131072   ( 5.8%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                66/512         23232/180224   (12.9%) 
+LDR lightdata         [variable]     1296996/0        ( 0.0%) 
+HDR lightdata         [variable]     1296996/0        ( 0.0%) 
+visdata               [variable]        3444/16777216 ( 0.0%) 
+entdata               [variable]       24563/393216   ( 6.2%) 
+LDR leaf ambient       609/65536       14616/1572864  ( 0.9%) 
+HDR leaf ambient       609/65536       14616/1572864  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114721/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      149313/4194304  ( 3.6%) 
+==== Total Win32 BSP file data space used: 3801833 bytes ====
+
+Total triangle count: 4843
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 19 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 184 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149313 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1379 texinfos to 709
+Reduced 78 texdatas to 62 (2523 bytes to 2040)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+7 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  99 portalclusters
+ 190 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.00%)
+Total clusters visible: 6373
+Average clusters visible: 64
+Building PAS...
+Average clusters audible: 96
+visdatasize:3314  compressed from 3168
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1716 faces
+556920 square feet [80196496.00 square inches]
+81 displacements
+200204 square feet [28829398.00 square inches]
+1716 patches before subdivision
+39740 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4451695, max 495
+transfer lists:  34.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(99547, 105795, 92454)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(29233, 42627, 34578)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10227, 18677, 13672)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3987, 8407, 5544)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1658, 3828, 2273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(715, 1752, 938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(314, 804, 388)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(140, 369, 161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(63, 170, 67)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(28, 78, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 36, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0239 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                431/8192         5172/98304    ( 5.3%) 
+brushsides            3316/65536       26528/524288   ( 5.1%) 
+planes                2588/65536       51760/1310720  ( 3.9%) 
+vertexes              3033/65536       36396/786432   ( 4.6%) 
+nodes                  583/65536       18656/2097152  ( 0.9%) 
+texinfos               709/12288       51048/884736   ( 5.8%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1716/65536       96096/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1131/65536       63336/3670016  ( 1.7%) 
+leaves                 604/65536       19328/2097152  ( 0.9%) 
+leaffaces             1947/65536        3894/131072   ( 3.0%) 
+leafbrushes            743/65536        1486/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12801/512000      51204/2048000  ( 2.5%) 
+edges                 8026/256000      32104/1024000  ( 3.1%) 
+LDR worldlights         36/8192         3168/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            200/32768        2000/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3765/65536        7530/131072   ( 5.7%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                66/512         23232/180224   (12.9%) 
+LDR lightdata         [variable]     1294932/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3314/16777216 ( 0.0%) 
+entdata               [variable]       25512/393216   ( 6.5%) 
+LDR leaf ambient       604/65536       14496/1572864  ( 0.9%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      113639/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      149313/4194304  ( 3.6%) 
+==== Total Win32 BSP file data space used: 2389386 bytes ====
+
+Total triangle count: 4820
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 26 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1716 faces
+556920 square feet [80196496.00 square inches]
+81 displacements
+200204 square feet [28829398.00 square inches]
+1716 patches before subdivision
+39740 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4451695, max 495
+transfer lists:  34.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(99547, 105795, 92454)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(29233, 42627, 34578)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10227, 18677, 13672)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3987, 8407, 5544)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1658, 3828, 2273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(715, 1752, 938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(314, 804, 388)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(140, 369, 161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(63, 170, 67)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(28, 78, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 36, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0232 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                431/8192         5172/98304    ( 5.3%) 
+brushsides            3316/65536       26528/524288   ( 5.1%) 
+planes                2588/65536       51760/1310720  ( 3.9%) 
+vertexes              3033/65536       36396/786432   ( 4.6%) 
+nodes                  583/65536       18656/2097152  ( 0.9%) 
+texinfos               709/12288       51048/884736   ( 5.8%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1716/65536       96096/3670016  ( 2.6%) 
+hdr faces             1716/65536       96096/3670016  ( 2.6%) 
+origfaces             1131/65536       63336/3670016  ( 1.7%) 
+leaves                 604/65536       19328/2097152  ( 0.9%) 
+leaffaces             1947/65536        3894/131072   ( 3.0%) 
+leafbrushes            743/65536        1486/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12801/512000      51204/2048000  ( 2.5%) 
+edges                 8026/256000      32104/1024000  ( 3.1%) 
+LDR worldlights         36/8192         3168/720896   ( 0.4%) 
+HDR worldlights         36/8192         3168/720896   ( 0.4%) 
+waterstrips            200/32768        2000/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3765/65536        7530/131072   ( 5.7%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                66/512         23232/180224   (12.9%) 
+LDR lightdata         [variable]     1294932/0        ( 0.0%) 
+HDR lightdata         [variable]     1294932/0        ( 0.0%) 
+visdata               [variable]        3314/16777216 ( 0.0%) 
+entdata               [variable]       25512/393216   ( 6.5%) 
+LDR leaf ambient       604/65536       14496/1572864  ( 0.9%) 
+HDR leaf ambient       604/65536       14496/1572864  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      113639/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      149313/4194304  ( 3.6%) 
+==== Total Win32 BSP file data space used: 3798078 bytes ====
+
+Total triangle count: 4820
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 21 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 184 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149864 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1386 texinfos to 715
+Reduced 81 texdatas to 65 (2691 bytes to 2208)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+ 102 portalclusters
+ 201 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5 visible clusters (0.00%)
+Total clusters visible: 6697
+Average clusters visible: 65
+Building PAS...
+Average clusters audible: 99
+visdatasize:3420  compressed from 3264
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1723 faces
+557524 square feet [80283544.00 square inches]
+81 displacements
+200204 square feet [28829398.00 square inches]
+1723 patches before subdivision
+39921 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4485544, max 496
+transfer lists:  34.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(100221, 106544, 93095)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(29521, 42965, 34813)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10337, 18840, 13771)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4035, 8486, 5585)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1679, 3866, 2290)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(725, 1770, 945)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(319, 813, 391)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(142, 373, 162)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(64, 172, 67)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(29, 79, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 36, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0228 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/1024         1008/49152    ( 2.1%) 
+brushes                431/8192         5172/98304    ( 5.3%) 
+brushsides            3316/65536       26528/524288   ( 5.1%) 
+planes                2594/65536       51880/1310720  ( 4.0%) 
+vertexes              3048/65536       36576/786432   ( 4.7%) 
+nodes                  593/65536       18976/2097152  ( 0.9%) 
+texinfos               715/12288       51480/884736   ( 5.8%) 
+texdata                 65/2048         2080/65536    ( 3.2%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      197900/0          197900/0        ( 0.0%) 
+faces                 1723/65536       96488/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1138/65536       63728/3670016  ( 1.7%) 
+leaves                 615/65536       19680/2097152  ( 0.9%) 
+leaffaces             1956/65536        3912/131072   ( 3.0%) 
+leafbrushes            747/65536        1494/131072   ( 1.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            12856/512000      51424/2048000  ( 2.5%) 
+edges                 8061/256000      32244/1024000  ( 3.1%) 
+LDR worldlights         36/8192         3168/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            200/32768        2000/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3765/65536        7530/131072   ( 5.7%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                66/512         23232/180224   (12.9%) 
+LDR lightdata         [variable]     1296364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3420/16777216 ( 0.0%) 
+entdata               [variable]       25712/393216   ( 6.5%) 
+LDR leaf ambient       615/65536       14760/1572864  ( 0.9%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3344     ( 0.0%) 
+pakfile               [variable]      114715/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      149864/4194304  ( 3.6%) 
+==== Total Win32 BSP file data space used: 2395733 bytes ====
+
+Total triangle count: 4834
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 19 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 212 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (167279 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1456 texinfos to 760
+Reduced 84 texdatas to 67 (2720 bytes to 2182)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+5 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+ 107 portalclusters
+ 217 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.00%)
+Total clusters visible: 7313
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 103
+visdatasize:3786  compressed from 3424
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1873 faces
+573672 square feet [82608832.00 square inches]
+81 displacements
+201061 square feet [28952912.00 square inches]
+1873 patches before subdivision
+42106 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4501969, max 502
+transfer lists:  34.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(99424, 98639, 85558)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(27684, 36550, 29522)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(9076, 14880, 10853)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3283, 6228, 4091)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1264, 2644, 1564)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(505, 1129, 602)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(207, 484, 233)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(86, 208, 90)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(36, 89, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(15, 39, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(6, 17, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0243 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                480/8192         5760/98304    ( 5.9%) 
+brushsides            3688/65536       29504/524288   ( 5.6%) 
+planes                2774/65536       55480/1310720  ( 4.2%) 
+vertexes              3257/65536       39084/786432   ( 5.0%) 
+nodes                  625/65536       20000/2097152  ( 1.0%) 
+texinfos               760/12288       54720/884736   ( 6.2%) 
+texdata                 67/2048         2144/65536    ( 3.3%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      198660/0          198660/0        ( 0.0%) 
+faces                 1873/65536      104888/3670016  ( 2.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1258/65536       70448/3670016  ( 1.9%) 
+leaves                 649/65536       20768/2097152  ( 1.0%) 
+leaffaces             2142/65536        4284/131072   ( 3.3%) 
+leafbrushes            830/65536        1660/131072   ( 1.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            14063/512000      56252/2048000  ( 2.7%) 
+edges                 8825/256000      35300/1024000  ( 3.4%) 
+LDR worldlights         36/8192         3168/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            233/32768        2330/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4224/65536        8448/131072   ( 6.4%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                68/512         23936/180224   (13.3%) 
+LDR lightdata         [variable]     1364376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3786/16777216 ( 0.0%) 
+entdata               [variable]       26088/393216   ( 6.6%) 
+LDR leaf ambient       649/65536       15576/1572864  ( 1.0%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3468     ( 0.0%) 
+pakfile               [variable]      114317/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      167279/4194304  ( 4.0%) 
+==== Total Win32 BSP file data space used: 2523758 bytes ====
+
+Total triangle count: 5274
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 26 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 244 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (172075 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1349 texinfos to 773
+Reduced 88 texdatas to 71 (3033 bytes to 2495)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+8 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+ 109 portalclusters
+ 225 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 17 visible clusters (0.00%)
+Total clusters visible: 7428
+Average clusters visible: 68
+Building PAS...
+Average clusters audible: 105
+visdatasize:3905  compressed from 3488
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1472 faces
+432053 square feet [62215632.00 square inches]
+81 displacements
+201061 square feet [28952912.00 square inches]
+1472 patches before subdivision
+20755 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1614325, max 405
+transfer lists:  12.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39536, 14335, 14399)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6666, 2486, 2743)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1219, 491, 545)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(234, 105, 115)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(47, 23, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 5, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0155 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                494/8192         5928/98304    ( 6.0%) 
+brushsides            3813/65536       30504/524288   ( 5.8%) 
+planes                2846/65536       56920/1310720  ( 4.3%) 
+vertexes              3089/65536       37068/786432   ( 4.7%) 
+nodes                  620/65536       19840/2097152  ( 0.9%) 
+texinfos               773/12288       55656/884736   ( 6.3%) 
+texdata                 71/2048         2272/65536    ( 3.5%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      198660/0          198660/0        ( 0.0%) 
+faces                 1472/65536       82432/3670016  ( 2.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1078/65536       60368/3670016  ( 1.6%) 
+leaves                 644/65536       20608/2097152  ( 1.0%) 
+leaffaces             1680/65536        3360/131072   ( 2.6%) 
+leafbrushes            848/65536        1696/131072   ( 1.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            11331/512000      45324/2048000  ( 2.2%) 
+edges                 7225/256000      28900/1024000  ( 2.8%) 
+LDR worldlights         36/8192         3168/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            207/32768        2070/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3771/65536        7542/131072   ( 5.8%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                68/512         23936/180224   (13.3%) 
+LDR lightdata         [variable]     1001084/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3905/16777216 ( 0.0%) 
+entdata               [variable]       26287/393216   ( 6.7%) 
+LDR leaf ambient       644/65536       15456/1572864  ( 1.0%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3468     ( 0.0%) 
+pakfile               [variable]      116370/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      172075/4194304  ( 4.1%) 
+==== Total Win32 BSP file data space used: 2116931 bytes ====
+
+Total triangle count: 4060
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 7 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1472 faces
+432053 square feet [62215632.00 square inches]
+81 displacements
+201061 square feet [28952912.00 square inches]
+1472 patches before subdivision
+20755 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1614325, max 405
+transfer lists:  12.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39536, 14335, 14399)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6666, 2486, 2743)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1219, 491, 545)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(234, 105, 115)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(47, 23, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 5, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0168 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                494/8192         5928/98304    ( 6.0%) 
+brushsides            3813/65536       30504/524288   ( 5.8%) 
+planes                2846/65536       56920/1310720  ( 4.3%) 
+vertexes              3089/65536       37068/786432   ( 4.7%) 
+nodes                  620/65536       19840/2097152  ( 0.9%) 
+texinfos               773/12288       55656/884736   ( 6.3%) 
+texdata                 71/2048         2272/65536    ( 3.5%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      198660/0          198660/0        ( 0.0%) 
+faces                 1472/65536       82432/3670016  ( 2.2%) 
+hdr faces             1472/65536       82432/3670016  ( 2.2%) 
+origfaces             1078/65536       60368/3670016  ( 1.6%) 
+leaves                 644/65536       20608/2097152  ( 1.0%) 
+leaffaces             1680/65536        3360/131072   ( 2.6%) 
+leafbrushes            848/65536        1696/131072   ( 1.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            11331/512000      45324/2048000  ( 2.2%) 
+edges                 7225/256000      28900/1024000  ( 2.8%) 
+LDR worldlights         36/8192         3168/720896   ( 0.4%) 
+HDR worldlights         36/8192         3168/720896   ( 0.4%) 
+waterstrips            207/32768        2070/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3771/65536        7542/131072   ( 5.8%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                68/512         23936/180224   (13.3%) 
+LDR lightdata         [variable]     1001084/0        ( 0.0%) 
+HDR lightdata         [variable]     1001084/0        ( 0.0%) 
+visdata               [variable]        3905/16777216 ( 0.0%) 
+entdata               [variable]       26287/393216   ( 6.7%) 
+LDR leaf ambient       644/65536       15456/1572864  ( 1.0%) 
+HDR leaf ambient       644/65536       15456/1572864  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3468     ( 0.0%) 
+pakfile               [variable]      116370/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      172075/4194304  ( 4.1%) 
+==== Total Win32 BSP file data space used: 3219071 bytes ====
+
+Total triangle count: 4060
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Fortress Forever\FortressForever\materials
+Loading C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 272 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/violentdays*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/violentdaysrt"
+Can't load skybox file skybox/violentdays to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (172774 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material /FF_BLEND_GRASS03_DIRT01_FIELDSTONE_YELLOW uses unknown detail object type cctrees_n_scrubs!
+Material /FF_BLEND_GRASS03_DIRT01_FIELDSTONE_YELLOW uses unknown detail object type cctrees_n_scrubs!
+Material /FF_BLEND_GRASS03_DIRT01_FIELDSTONE_YELLOW uses unknown detail object type cctrees_n_scrubs!
+Material /FF_BLEND_GRASS03_DIRT01_FIELDSTONE_YELLOW uses unknown detail object type cctrees_n_scrubs!
+Material /FF_BLEND_GRASS03_DIRT01_FIELDSTONE_YELLOW uses unknown detail object type cctrees_n_scrubs!
+Material /FF_BLEND_GRASS03_DIRT01_FIELDSTONE_YELLOW uses unknown detail object type cctrees_n_scrubs!
+10
+Compacting texture/material tables...
+Reduced 1403 texinfos to 841
+Reduced 96 texdatas to 78 (3344 bytes to 2761)
+Writing C:\Users\Aspire X\Documents\GitHub\maps\ff_ironsand\ff_ironsand.bsp
+8 seconds elapsed
+
+
+
+4 threads
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+reading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.prt
+  90 portalclusters
+ 168 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.00%)
+Total clusters visible: 4943
+Average clusters visible: 54
+Building PAS...
+Average clusters audible: 86
+visdatasize:2825  compressed from 2880
+writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1768 faces
+560008 square feet [80641168.00 square inches]
+81 displacements
+201065 square feet [28953364.00 square inches]
+1768 patches before subdivision
+40801 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4166875, max 490
+transfer lists:  31.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(92450, 84942, 78167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(24482, 29665, 27483)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7851, 12131, 10967)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2890, 5238, 4607)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1161, 2327, 1991)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(493, 1050, 873)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(216, 478, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(96, 219, 172)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(43, 100, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(20, 46, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(9, 21, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 10, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0457 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                505/8192         6060/98304    ( 6.2%) 
+brushsides            3877/65536       31016/524288   ( 5.9%) 
+planes                2792/65536       55840/1310720  ( 4.3%) 
+vertexes              3164/65536       37968/786432   ( 4.8%) 
+nodes                  577/65536       18464/2097152  ( 0.9%) 
+texinfos               841/12288       60552/884736   ( 6.8%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      198660/0          198660/0        ( 0.0%) 
+faces                 1768/65536       99008/3670016  ( 2.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1210/65536       67760/3670016  ( 1.8%) 
+leaves                 598/65536       19136/2097152  ( 0.9%) 
+leaffaces             2061/65536        4122/131072   ( 3.1%) 
+leafbrushes            862/65536        1724/131072   ( 1.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            13318/512000      53272/2048000  ( 2.6%) 
+edges                 8518/256000      34072/1024000  ( 3.3%) 
+LDR worldlights         36/8192         3168/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            211/32768        2110/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3882/65536        7764/131072   ( 5.9%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                70/512         24640/180224   (13.7%) 
+LDR lightdata         [variable]     1532760/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2825/16777216 ( 0.0%) 
+entdata               [variable]       24732/393216   ( 6.3%) 
+LDR leaf ambient       598/65536       14352/1572864  ( 0.9%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3468     ( 0.0%) 
+pakfile               [variable]      117399/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      172774/4194304  ( 4.1%) 
+==== Total Win32 BSP file data space used: 2688032 bytes ====
+
+Total triangle count: 4936
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 31 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1768 faces
+560008 square feet [80641168.00 square inches]
+81 displacements
+201065 square feet [28953364.00 square inches]
+1768 patches before subdivision
+40801 patches after subdivision
+36 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4166875, max 490
+transfer lists:  31.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(92451, 84943, 78167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(24482, 29665, 27483)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7851, 12131, 10967)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2890, 5238, 4607)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1161, 2327, 1991)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(493, 1050, 873)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(216, 478, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(96, 219, 172)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(43, 100, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(20, 46, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(9, 21, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 10, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0339 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                505/8192         6060/98304    ( 6.2%) 
+brushsides            3877/65536       31016/524288   ( 5.9%) 
+planes                2792/65536       55840/1310720  ( 4.3%) 
+vertexes              3164/65536       37968/786432   ( 4.8%) 
+nodes                  577/65536       18464/2097152  ( 0.9%) 
+texinfos               841/12288       60552/884736   ( 6.8%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos               81/0           14256/0        ( 0.0%) 
+disp_verts            3481/0           69620/0        ( 0.0%) 
+disp_tris             5088/0           10176/0        ( 0.0%) 
+disp_lmsamples      198660/0          198660/0        ( 0.0%) 
+faces                 1768/65536       99008/3670016  ( 2.7%) 
+hdr faces             1768/65536       99008/3670016  ( 2.7%) 
+origfaces             1210/65536       67760/3670016  ( 1.8%) 
+leaves                 598/65536       19136/2097152  ( 0.9%) 
+leaffaces             2061/65536        4122/131072   ( 3.1%) 
+leafbrushes            862/65536        1724/131072   ( 1.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            13318/512000      53272/2048000  ( 2.6%) 
+edges                 8518/256000      34072/1024000  ( 3.3%) 
+LDR worldlights         36/8192         3168/720896   ( 0.4%) 
+HDR worldlights         36/8192         3168/720896   ( 0.4%) 
+waterstrips            211/32768        2110/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3882/65536        7764/131072   ( 5.9%) 
+cubemapsamples          20/1024          320/16384    ( 2.0%) 
+overlays                70/512         24640/180224   (13.7%) 
+LDR lightdata         [variable]     1532760/0        ( 0.0%) 
+HDR lightdata         [variable]     1532760/0        ( 0.0%) 
+visdata               [variable]        2825/16777216 ( 0.0%) 
+entdata               [variable]       24732/393216   ( 6.3%) 
+LDR leaf ambient       598/65536       14352/1572864  ( 0.9%) 
+HDR leaf ambient       598/65536       14352/1572864  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3468     ( 0.0%) 
+pakfile               [variable]      117399/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      172774/4194304  ( 4.1%) 
+==== Total Win32 BSP file data space used: 4337320 bytes ====
+
+Total triangle count: 4936
+Writing c:\users\aspire x\documents\github\maps\ff_ironsand\ff_ironsand.bsp
+1 minute, 27 seconds elapsed
